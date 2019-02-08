@@ -1,0 +1,98 @@
+@font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "BMJUA";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0E8D9;
+}
+
+.title {
+  margin-top: 75px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.first-title {
+  color: #58595B;
+  font-family: "BMJUA";
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.second-title {
+  color: #58595B;
+  font-family: "BMJUA";
+  font-size: 32px;
+}
+
+.grid {
+  display: flex;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.restaurant {
+  text-align: center;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.restaurant img {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+
+.col2 {
+  margin-left: 15px;
+}
+
+.content {
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.name {
+  font-family: "BMJUA";
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #58595B;
+}
+
+.comment {
+  font-family: "BMJUA";
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 16px;
+  color: #58595B;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #0000EE;
+  font-size: 16px;
+  font-family: "BMJUA";
+}
+
+/* div태그 안에 있는 img에 border-radius입히는 방법
+overflow: hidden;을 하면 div태그 바깥으로 삐져나오는
+img를 숨겨서 div태그에만 border-radius를 줘도 적용 됨 */

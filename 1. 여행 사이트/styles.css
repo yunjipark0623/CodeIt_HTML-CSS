@@ -1,0 +1,39 @@
+.logo {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.logo img {
+  width: 165px;
+  height: 58px;
+}
+
+.country {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: #58595B;
+  margin-right: 20px;
+}
+
+a[name="paris"] {
+  margin-right: 0;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.img {
+  text-align: center;
+}
+
+.img img {
+  width: 90%;
+}
